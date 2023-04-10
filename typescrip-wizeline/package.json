@@ -1,0 +1,8 @@
+{
+  "name": "typescrip-wizeline",
+  "version": "1.0.0",
+  "dependencies": {
+    "node-ts": "^5.1.2",
+    "typescript": "^5.0.2"
+  }
+}
