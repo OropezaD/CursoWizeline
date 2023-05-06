@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "0c6c879f-b5e7-48d8-af92-c172227950aa",
+		"name": "Curso Wizeline",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15853741"
+	},
+	"item": [
+		{
+			"name": "Practica - POST",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Caballazo\",\n    \"age\": 2,\n    \"colour\": \"blue\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/unicorns",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"unicorns"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Practica - PUT",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Caballos\",\n    \"age\": 2,\n    \"colour\": \"blue\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/unicorns/64334958308c9903e84ed6ac",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"unicorns",
+						"64334958308c9903e84ed6ac"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Practica - PATCH",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Caballos\",\n    \"age\": 2,\n    \"colour\": \"blue\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/unicorns/6433497b308c9903e84ed6b8",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"unicorns",
+						"6433497b308c9903e84ed6b8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Practica - DELETE",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/unicorns/6433497b308c9903e84ed6b8",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"unicorns",
+						"6433497b308c9903e84ed6b8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Practica - GET",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/unicorns",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"unicorns"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
