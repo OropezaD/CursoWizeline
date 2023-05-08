@@ -1,0 +1,25 @@
+
+###
+# User Signup
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "email": "example@email.com",
+    "password": "password11"
+}
+
+###
+# User Login
+POST {{ baseURL }}/login
+Content-Type: application/json
+
+{
+    "email": "example@email.com",
+    "password": "password"
+}
+
+###
+# User Logout
+POST {{ baseURL }}/logout
+Content-Type: application/json
